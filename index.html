@@ -315,41 +315,49 @@
 </ul>
 <h1 id="method">Method</h1>
 <p>First, the documents on COVID-19 are retrieved using a BM-25 search engine. Then, to find answers to the questions above, two methods are used to find sentences in the papers that talk about those topics.</p>
-<p><strong>Method 1:</strong>
-1. Create TF-IDF vectors for all sentences from all papers
-2. For a particular Search Query, get the TF-IDF vector.
-3. Find the highest Cosine Similarity between the Search Query and all the sentences from the papers.</p>
+<p><strong>Method 1:</strong><br />
+1. Create TF-IDF vectors for all sentences from all papers.<br />
+2. For a particular Search Query, get the TF-IDF vector.<br />
+3. Find the highest Cosine Similarity between the Search Query and all the sentences from the papers.  </p>
 <ul>
 <li>Pros: Fast and accurate.</li>
 <li>Cons: Not able to capture semantic relationships between words.</li>
 </ul>
-<p><strong>Method 2:</strong>
-1. Train Word Embeddings (Word2Vec) on the papers' texts.
-2. For a particular Search Query, get the embedded Word Vectors.
-3. Find the lowest Word Mover's Distance between the Search Query and all the sentences from the papers.</p>
+<p><strong>Method 2:</strong><br />
+1. Train Word Embeddings (Word2Vec) on the papers' texts.<br />
+2. For a particular Search Query, get the embedded Word Vectors.<br />
+3. Find the lowest Word Mover's Distance between the Search Query and all the sentences from the papers.  </p>
 <ul>
 <li>Pros: Able to capture semantic relationships between words.</li>
 <li>Cons: Distance calculations are slow.</li>
 </ul>
 <h1 id="results">Results</h1>
-<p><em>Question: Risk factors of smoking, pre-existing pulmonary disease</em>
-<img alt="Smoking1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/smoking1.png" />
+<pre><code class="diff">Question: Risk factors of smoking, pre-existing pulmonary disease
+</code></pre>
+
+<p><img alt="Smoking1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/smoking1.png" />
 <img alt="Pulmonary1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/pulmonary1.png" /></p>
 <hr />
-<p><em>Question: Co-infections and other co-morbidities</em>
-<img alt="Comorbidities1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/comorbidities1.png" /></p>
-<hr />
-<p><em>Question: Neonates and pregnant women</em>
-<img alt="Neonates1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/neonates1.png" /></p>
-<hr />
-<p><em>Question: Socio-economic and behavioral factors to understand the economic impact of the virus and whether there were differences.</em>
-<img alt="Comorbidities1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/comorbidities1.png" /></p>
-<hr />
-<p><em>Question: Susceptibility of populations</em>
-<img alt="Susceptibility1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/susceptibility1.png" /></p>
-<hr />
-<p><em>Question: Public health mitigation measures that could be effective for control</em>
-<img alt="Mitigation1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/mitigation1.png" /></p>
+<pre><code class="diff">Question: Co-infections and other co-morbidities
+</code></pre>
+
+<h2 id="_1"><img alt="Comorbidities1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/comorbidities1.png" /></h2>
+<pre><code class="diff">Question: Neonates and pregnant women
+</code></pre>
+
+<h2 id="_2"><img alt="Neonates1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/neonates1.png" /></h2>
+<pre><code class="diff">Question: Socio-economic and behavioral factors to understand the economic impact of the virus and whether there were differences.
+</code></pre>
+
+<h2 id="_3"><img alt="Comorbidities1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/comorbidities1.png" /></h2>
+<pre><code class="diff">Question: Susceptibility of populations
+</code></pre>
+
+<h2 id="_4"><img alt="Susceptibility1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/susceptibility1.png" /></h2>
+<pre><code class="diff">Question: Public health mitigation measures that could be effective for control
+</code></pre>
+
+<p><img alt="Mitigation1" src="https://raw.githubusercontent.com/tchanda90/cord-19/master/img/mitigation1.png" /></p>
                 
                   
                 
