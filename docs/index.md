@@ -1,6 +1,5 @@
-# Text Mining of COVID-19 Research Papers using Word and Sentence Embeddings
-
-<div>
+<div style="text-align: center;">
+	<h1>COVID-19 Text Mining</h1>
         
                 <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
         <script type="text/javascript">/**
