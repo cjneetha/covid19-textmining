@@ -1,7 +1,7 @@
 # COVID-19 Text Mining
-<p align="center">
+<div align="center">
 	<img src="https://www.lsvbw.de/wp-content/uploads/2020/02/2802_Corona.jpg">
-</p>
+</div>
 
 # Purpose
 The CORD-19 dataset is a vast collection of literature on the novel coronavirus. We can apply text and data mining approaches to find answers to questions in the literature in support of the ongoing COVID-19 response efforts worldwide.
