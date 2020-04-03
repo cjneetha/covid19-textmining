@@ -38,8 +38,6 @@ First, the documents on COVID-19 are retrieved using a BM-25 search engine. Then
 
 # Results
 
-
-
 *Question: Incubation Period - TF-IDF*
 ![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/incubation1_tfidf.jpg)
 
