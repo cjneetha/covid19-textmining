@@ -38,31 +38,38 @@ First, the documents on COVID-19 are retrieved using a BM-25 search engine. Then
 
 # Results
 
-*Question: Co-morbidities - TF-IDF*
-![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/comorbidities_tfidf.jpg)
 
-*Question: Co-morbidities - WMD*
-![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/comorbidities1_wmd.jpg)
----
 
 *Question: Incubation Period - TF-IDF*
 ![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/incubation1_tfidf.jpg)
 
 *Question: Incubation Period - WMD*
 ![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/incubation1_wmd.jpg)
+
+---
+
+*Question: Co-morbidities - TF-IDF*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/comorbidities_tfidf.jpg)
+
+*Question: Co-morbidities - WMD*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/comorbidities1_wmd.jpg)
+
 ---
 
 *Question: High Risk Group - TF-IDF*
 ![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/incubation1_tfidf.jpg)
 *Question: High Risk Group - WMD*
 ![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/incubation1_wmd.jpg)
+
 ---
 
 *Question: Reproductive Number - TF-IDF*
 ![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/reproductive_number_tfidf.jpg)
 *Question: Reproductive Number - WMD*
 ![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/reproductive_number_wmd.jpg)
+
 ---
+
 *Question: Pregant Women - TF-IDF*
 ![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/pregnancy1_tfidf.jpg)
 *Question: Pregnant Women - WMD*
