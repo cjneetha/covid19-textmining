@@ -1,4 +1,4 @@
-# Text Mining of COVID-19 Research Papers using Word and Sentence Embeddings
+# COVID-19 Text Mining
 <p align="center">
 	<img src="https://www.lsvbw.de/wp-content/uploads/2020/02/2802_Corona.jpg">
 </p>
@@ -38,23 +38,32 @@ First, the documents on COVID-19 are retrieved using a BM-25 search engine. Then
 
 # Results
 
-*Question: Risk factors of smoking, pre-existing pulmonary disease*
-![Smoking1](https://raw.githubusercontent.com/tchanda90/cord-19/master/img/smoking1.png)
-![Pulmonary1](https://raw.githubusercontent.com/tchanda90/cord-19/master/img/pulmonary1.png)
----
-*Question: Co-infections and other co-morbidities*
-![Comorbidities1](https://raw.githubusercontent.com/tchanda90/cord-19/master/img/comorbidities1.png)
----
-*Question: Neonates and pregnant women*
-![Neonates1](https://raw.githubusercontent.com/tchanda90/cord-19/master/img/neonates1.png)
----
-*Question: Socio-economic and behavioral factors to understand the economic impact of the virus and whether there were differences.*
-![Comorbidities1](https://raw.githubusercontent.com/tchanda90/cord-19/master/img/comorbidities1.png)
----
-*Question: Susceptibility of populations*
-![Susceptibility1](https://raw.githubusercontent.com/tchanda90/cord-19/master/img/susceptibility1.png)
----
-*Question: Public health mitigation measures that could be effective for control*
-![Mitigation1](https://raw.githubusercontent.com/tchanda90/cord-19/master/img/mitigation1.png)
+*Question: Co-morbidities - TF-IDF*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/comorbidities_tfidf.jpg)
 
- 
+*Question: Co-morbidities - WMD*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/comorbidities1_wmd.jpg)
+---
+
+*Question: Incubation Period - TF-IDF*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/incubation1_tfidf.jpg)
+
+*Question: Incubation Period - WMD*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/incubation1_wmd.jpg)
+---
+
+*Question: High Risk Group - TF-IDF*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/incubation1_tfidf.jpg)
+*Question: High Risk Group - WMD*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/incubation1_wmd.jpg)
+---
+
+*Question: Reproductive Number - TF-IDF*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/reproductive_number_tfidf.jpg)
+*Question: Reproductive Number - WMD*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/reproductive_number_wmd.jpg)
+---
+*Question: Pregant Women - TF-IDF*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/pregnancy1_tfidf.jpg)
+*Question: Pregnant Women - WMD*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/pregnancy1_wmd.jpg)
