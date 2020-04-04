@@ -103,3 +103,12 @@ First, the documents on COVID-19 are retrieved using a BM-25 search engine. Then
 ![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/pregnancy1_tfidf.jpg)
 *Question: Pregnant Women - WMD*
 ![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/pregnancy1_wmd.jpg)
+
+---
+
+*Question: Neonates of Mothers with Covid-19 - TF-IDF*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/neonates_tfidf.jpg)
+*Question: Neonates of Mothers with Covid-19 - WMD*
+![](https://raw.githubusercontent.com/cjneetha/covid19-textmining/master/img/neonates_wmd.jpg)
+
+---
